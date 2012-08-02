@@ -14,7 +14,7 @@ class Array
   end
 
   def add1 val, n
-    self.clone.add1! val, n
+    clone.add1! val, n
   end
 
   def reverse_each_with_index &block
